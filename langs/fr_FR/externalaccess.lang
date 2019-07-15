@@ -67,6 +67,10 @@ WiewOrders=Commandes
 WiewOrdersDesc=Retrouvez facilement toutes vos commandes
 EALINKNAME_orders=Commandes
 
+WiewTickets=Tickets
+WiewTicketsDesc=Retrouvez facilement tous vos tickets
+EALINKNAME_tickets=Tickets
+
 PersonalInformations=Informations personnelles
 
 # PAGE TITLE
@@ -92,6 +96,7 @@ EACCESS_ACTIVATE_INVOICES=Téléchargement des Factures
 EACCESS_need_some_rights=Note: Des droits utilisateurs sont à paramétrer
 EACCESS_ACTIVATE_PROPALS=Téléchargement des Devis
 EACCESS_ACTIVATE_ORDERS=Téléchargement des Commandes
+EACCESS_ACTIVATE_TICKETS=Téléchargement des Tickets
 EACCESS_HEADER_IMG=Url de l'image de fond
 EACCESS_HEADER_IMG_HELP=Vous pouvez utiliser une image personalisée ou utiliser une des images suivantes: <ul><li>../img/header_01.jpg</li><li>../img/header_04.jpg</li><li>../img/header_02.jpg</li><li>../img/header_03.jpg</li></ul>Sur les pages du portail client, pensez à appuyer sur la touche CTRL+F5 ou videz le cache de votre navigateur après avoir modifié cette valeur pour que le changement soit effectif
 AccessToCustomerGate=Consulter le portail client

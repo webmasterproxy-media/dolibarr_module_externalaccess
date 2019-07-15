@@ -125,6 +125,7 @@ _print_on_off('EACCESS_ACTIVATE_INVOICES',false, 'EACCESS_need_some_rights');
 
 _print_on_off('EACCESS_ACTIVATE_PROPALS',false, 'EACCESS_need_some_rights');
 _print_on_off('EACCESS_ACTIVATE_ORDERS',false, 'EACCESS_need_some_rights');
+_print_on_off('EACCESS_ACTIVATE_TICKETS',false, 'EACCESS_need_some_rights');
 //_print_on_off('EACCESS_ACTIVATE_EXPEDITIONS');
 //_print_on_off('EACCESS_ACTIVATE_FORMATIONS');
 
