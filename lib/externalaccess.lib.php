@@ -437,6 +437,7 @@ function print_ticketTable($socId = 0)
 
     dol_include_once('ticket/class/ticket.class.php');
 
+    $langs->load('ticket');
 
 
     $sql = 'SELECT rowid ';
@@ -460,8 +461,9 @@ function print_ticketTable($socId = 0)
         print ' <th class="text-center" >'.$langs->trans('Ref').'</th>';
         print ' <th class="text-center" >'.$langs->trans('Date').'</th>';
         print ' <th class="text-center" >'.$langs->trans('Subject').'</th>';
-        print ' <th class="text-center" >'.$langs->trans('Status').'</th>';
         print ' <th class="text-center" >'.$langs->trans('Type').'</th>';
+        print ' <th class="text-center" >'.$langs->trans('TicketSeverity').'</th>';
+        print ' <th class="text-center" >'.$langs->trans('Status').'</th>';
         print '</tr>';
 
         print '</thead>';
@@ -472,12 +474,16 @@ function print_ticketTable($socId = 0)
             $object = new Ticket($db);
             $object->fetch($item->rowid);
 
+            $type = $langs->getLabelFromKey($db, $object->type_code, 'c_ticket_type', 'code', 'label');
+            $severity = $langs->getLabelFromKey($db, $object->severity_code, 'c_ticket_severity', 'code', 'label');
+
             print '<tr>';
             print ' <td data-search="'.$object->ref.'" data-order="'.$object->ref.'"  >'.$object->ref.'</td>';
             print ' <td data-search="'.dol_print_date($object->datec).'" data-order="'.$object->datec.'" >'.dol_print_date($object->datec).'</td>';
             print ' <td data-search="'.$object->subject.'" data-order="'.$object->subject.'" >'.$object->subject.'</td>';
-            print ' <td class="text-center" >'.$object->getLibStatut(0).'</td>';
-            print ' <td data-search="'.$object->type.'" data-order="'.$object->type.'" >'.$object->type.'</td>';
+            print ' <td data-search="'.$type.'" data-order="'.$type.'" >'.$type.'</td>';
+            print ' <td data-search="'.$severity.'" data-order="'.$severity.'" >'.$severity.'</td>';
+            print ' <td class="text-center" >'.$object->getLibStatut(1).'</td>';
 
 
             print '</tr>';

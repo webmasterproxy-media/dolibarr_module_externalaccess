@@ -14,6 +14,7 @@ external_access_invoices=Peut consulter les factures
 external_access_propals=Peut consulter les devis
 external_access_orders=Peut consulter les commandes
 external_access_userinfos_edit=Peut modifier ces informations personnelles
+external_access_tickets=Peut consulter les tickets
 
 # MENU
 TopMenuexternalaccess=Portail client
