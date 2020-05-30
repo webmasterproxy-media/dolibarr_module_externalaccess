@@ -48,120 +48,119 @@ Cancel=Abbrechen
 Validate=Bestätigen
 Modify=Bearbeiten
 Reopen=Wieder öffnen
-ToClone=Cloner
-Delete=Supprimer
-DateFinValidite=Date de fin de validité
-EndValidDate=Fin de validité
-DateLivraison=Date prévue de livraison
-DatePayLimit=Date échéance
+ToClone=Klon
+Delete=Entfernen
+DateFinValidite=Haltbarkeitsdatum
+EndValidDate=Ende der Gültigkeit
+DateLivraison=Voraussichtliches Lieferdatum
+DatePayLimit=Termin Frist
 
 # Diver tools
-OrSeparator=Ou
+OrSeparator=Oder
 
 # MENU
-EALINKNAME_gobackurl=Retour au site
+EALINKNAME_gobackurl=Zurück zur Seite
 
-ViewInvoices=Factures
-ViewInvoicesDesc=Retrouvez facilement toutes vos factures
-EALINKNAME_invoices=Factures
+ViewInvoices=Rechnungen
+ViewInvoicesDesc=Finden Sie einfach alle Ihre Rechnungen
+EALINKNAME_invoices=Rechnungen
 
-ViewPropals=Devis
-ViewPropalsDesc=Retrouvez facilement tous vos devis
-EALINKNAME_propals=Devis
+ViewPropals=Angebote
+ViewPropalsDesc=Finden Sie einfach alle Ihre Angebote
+EALINKNAME_propals=Angebote
 
-ViewOrders=Commandes
-ViewOrdersDesc=Retrouvez facilement toutes vos commandes
-EALINKNAME_orders=Commandes
+ViewOrders=Bestellungen
+ViewOrdersDesc=Finden Sie einfach alle Ihre Bestellungen
+EALINKNAME_orders=Bestellungen
 
-ViewExpeditions=Livraisons
-ViewExpeditionsDesc=Retrouvez facilement toutes vos livraisons
-EALINKNAME_expeditions=livraisons
+ViewExpeditions=Lieferungen
+ViewExpeditionsDesc=Finden Sie einfach alle Ihre Lieferungen
+EALINKNAME_expeditions=Lieferungen
 
 ViewTickets=Tickets
-ViewTicketsDesc=Retrouvez facilement tous vos tickets
+ViewTicketsDesc=Finden Sie einfach alle Ihre Tickets
 EALINKNAME_tickets=Tickets
 
-PersonalInformations=Informations personnelles
+PersonalInformations=Persönliche Informationen
 
 # PAGE TITLE
-Welcome=Bienvenue
-WelcomeDesc=Bienvenue sur votre portail client
+Welcome=Willkommen
+WelcomeDesc=Willkommen in Ihrem Kundenportal
 
 # SETUP PAGE
-AbricotNotFound=Module Abricot non trouvé, le portail client ne peut pas fonctionner correctement sans ce module.
-AbricotWiki=Consulter la page d'information du module abricot.
-EACCESS_ROOT_URL=Url d'accès  public
-EACCESS_ROOT_URL_HELP=Si vous utilisez un virtual host
-EACCESS_TITLE=Titre de l'accès extérieur
-EACCESS_TITLE_HELP=Visible sur le menu du haut
-EACCESS_GOBACK_URL=Url du lien de retour
-EACCESS_GOBACK_URL_HELP=Si l'URL est renseignée, celà ajoute un lien "retour vers le site" dans le menu du haut
-EACCESS_PRIMARY_COLOR=Couleur principale du thème
-EACCESS_PRIMARY_COLOR_HELP=Sur les pages du portail client, pensez à appuyer sur la touche CTRL+F5 ou videz le cache de votre navigateur après avoir modifié cette valeur pour que le changement soit effectif
-EACCESS_PHONE=Téléphone de contact
-EACCESS_EMAIL=Email de contact
-EACCESS_EMAIL_HELP=Cet adresse email est visible dans le pied de page
-EACCESS_ACTIVATE_MODULES=Modules accessibles
-EACCESS_ACTIVATE_INVOICES=Téléchargement des Factures
-EACCESS_need_some_rights=Note: Des droits utilisateurs sont à paramétrer
-EACCESS_ACTIVATE_PROPALS=Téléchargement des Devis
-EACCESS_ACTIVATE_ORDERS=Téléchargement des Commandes
-EACCESS_HEADER_IMG=Url de l'image de fond
-EACCESS_HEADER_IMG_HELP=Vous pouvez utiliser une image personalisée ou utiliser une des images suivantes: <ul><li>../img/header_01.jpg</li><li>../img/header_04.jpg</li><li>../img/header_02.jpg</li><li>../img/header_03.jpg</li></ul>Sur les pages du portail client, pensez à appuyer sur la touche CTRL+F5 ou videz le cache de votre navigateur après avoir modifié cette valeur pour que le changement soit effectif
-AccessToCustomerGate=Consulter le portail client
-EACCESS_LOGIN_EXTRA_HTML=Texte supplémentaire affiché sur la page de connexion.
-EACCESS_RGPD_MSG=Message RGPD sur le formulaire des informations personnelles
-EACCESS_RGPD_MSG_default=Vous pouvez demander la rectification des informations inexactes ou incomplètes vous concernant. En modifiant et soumettant ce formulaire, j'accepte que les données saisies soient utilisées par %s afin qu'elle puisse, lire et, si nécessaire, gérer la relation contractuelle qui pourrait en résulter.
-EACCESS_ACTIVATE_EXPEDITIONS=Téléchargement des expéditions
-EACCESS_ACTIVATE_TICKETS=Téléchargement des Tickets
+AbricotNotFound=Abricot Modul nicht gefunden, das Kundenportal kann ohne dieses Modul nicht richtig funktionieren.AbricotWiki=Consulter la page d'information du module abricot.
+EACCESS_ROOT_URL=URL für den öffentlichen Zugriff
+EACCESS_ROOT_URL_HELP=Wenn Sie einen virtuellen Host verwenden
+EACCESS_TITLE=Externer Zugriffstitel
+EACCESS_TITLE_HELP=Sichtbar im oberen Menü
+EACCESS_GOBACK_URL=Link-URL zurückgeben
+EACCESS_GOBACK_URL_HELP=Wenn die URL ausgefüllt ist, wird im oberen Menü ein Link "Zurück zur Site" hinzugefügt
+EACCESS_PRIMARY_COLOR=Hauptthema Farbe
+EACCESS_PRIMARY_COLOR_HELP=Denken Sie auf den Seiten des Kundenportals daran, die CTRL + F5-Taste zu drücken oder den Browser-Cache zu leeren, nachdem Sie diesen Wert geändert haben, damit die Änderung wirksam wird
+EACCESS_PHONE=Kontakt-Telefon
+EACCESS_EMAIL=Kontakt E-mail
+EACCESS_EMAIL_HELP=Diese E-Mail-Adresse ist in der Fußzeile sichtbar
+EACCESS_ACTIVATE_MODULES=Zugängliche Module
+EACCESS_ACTIVATE_INVOICES=Rechnungen herunterladen
+EACCESS_need_some_rights=Note: Benutzerrechte sind zu konfigurieren
+EACCESS_ACTIVATE_PROPALS=Zitate herunterladen
+EACCESS_ACTIVATE_ORDERS=Bestellungen herunterladen
+EACCESS_HEADER_IMG=Hintergrundbild-URL
+EACCESS_HEADER_IMG_HELP=Sie können ein benutzerdefiniertes Bild oder eines der folgenden Bilder verwenden: <ul><li>../img/header_01.jpg</li><li>../img/header_04.jpg</li><li>../img/header_02.jpg</li><li>../img/header_03.jpg</li></ul>Denken Sie auf den Seiten des Kundenportals daran, die CTRL + F5-Taste zu drücken oder den Browser-Cache zu leeren, nachdem Sie diesen Wert geändert haben, damit die Änderung wirksam wird
+AccessToCustomerGate=Konsultieren Sie das Kundenportal
+EACCESS_LOGIN_EXTRA_HTML=Zusätzlicher Text wird auf der Anmeldeseite angezeigt.
+EACCESS_RGPD_MSG=GDPR-Nachricht auf dem Formular für persönliche Informationen
+EACCESS_RGPD_MSG_default=Sie können die Berichtigung ungenauer oder unvollständiger Informationen über Sie beantragen. Durch das Ändern und Senden dieses Formulars akzeptiere ich, dass die eingegebenen Daten von% s verwendet werden, damit das daraus resultierende Vertragsverhältnis gelesen und gegebenenfalls verwaltet werden kann.
+EACCESS_ACTIVATE_EXPEDITIONS=Sendungen herunterladen
+EACCESS_ACTIVATE_TICKETS=Tickets herunterladen
 
 # INDEX
-Quotations=Devis
+Quotations=Zitat
 QuotationsDesc=
 Orders=Commandes
 OrdersDesc=
-Invoices=Factures
+Invoices=Rechnungen
 InvoicesDesc=
-MySpace=Consulter mon espace
+MySpace=Konsultieren Sie meinen Raum
 
 
 
-ForgotThePassword=Mot de passe oublié ?
-ForgotPassword=Mot de passe oublié ?
-Rememberme=Se souvenir de moi.
-SignIn=Connexion
-YouCanResetYourPasswordHere=Vous pouvez le renouveller ici
-Renew=Renouveller
+ForgotThePassword=Haben Sie Ihr Passwort vergessen ?
+ForgotPassword=Haben Sie Ihr Passwort vergessen ?
+Rememberme=Erinnere dich an mich.
+SignIn=Anmelden
+YouCanResetYourPasswordHere=Sie können es hier erneuern
+Renew=Erneuern
 
 # FOOTER
-GetInTouch=Restons en contact
-GetInTouchDesc=Prêt à commencer votre prochain projet avec nous? Appelez-nous ou envoyez-nous un courriel et nous vous répondrons dans les plus brefs délais!
+GetInTouch=Den Kontakt halten
+GetInTouchDesc=Bist du bereit, dein nächstes Projekt bei uns zu starten? Rufen Sie uns an oder mailen Sie uns und wir werden uns so schnell wie möglich bei Ihnen melden!
 
 # UserInfos
-MyPersonalInfos=Mes infos
-UserInfosDesc=Vos informations personnelles
-YourPersonnalInformations=Vos informations personnelles
-firstname=Prénom
-lastname=Nom
+MyPersonalInfos=Meine Information
+UserInfosDesc=Ihre persönliche Information
+YourPersonnalInformations=Ihre persönliche Information
+firstname=Vorname
+lastname=Nachname
 address=Adresse
-addresszip=Code postal
-town=Ville
-exa_Edit=Modifier
-User_mobile=Téléphone mobile
-Office_phone=Téléphone bureau
+addresszip=Postleitzahl
+town=Stadt
+exa_Edit=Bearbeiten
+User_mobile=Mobiltelefon
+Office_phone=Bürotelefon
 Office_fax=Fax
-Saved=Sauvegardé
-Company=Société
+Saved=Gerettet
+Company=Gesellschaft
 
 # 404 tpl 
-SorryThereIsNothingHere=Désolé il n'y a rien ici
+SorryThereIsNothingHere=Entschuldigung, hier ist nichts
 
-EACCESS_Nothing=Actuellement il n'y a rien ici, patience, vos documents seront disponibles prochainement
+EACCESS_Nothing=Derzeit gibt es hier nichts, Geduld, Ihre Dokumente werden bald verfügbar sein
 
-Amount_HT=Montant HT
-Amount_TTC=Montant TTC
-RemainderToPay=Reste à payer
-DocumentFileNotAvailable=Document actuellement non disponible.
+Amount_HT=Menge ohne MwSt. 
+Amount_TTC=Menge inkl. MwSt.
+RemainderToPay=Noch zu zahlen
+DocumentFileNotAvailable=Dokument derzeit nicht verfügbar.
 
 
 EaBack=Retour
